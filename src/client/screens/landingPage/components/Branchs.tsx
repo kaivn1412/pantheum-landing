@@ -87,8 +87,9 @@ const Branchs = (props: any) => {
           lineHeight: "150%",
           background: "linear-gradient(95deg, #B2C6FF 0%, #638AEF 68.75%)",
           backgroundClip: "text",
-          "-webkit-background-clip": "text",
-          "-webkit-text-fill-color": "transparent",
+          MozBackgroundClip: "text",
+          WebkitBackgroundClip: "text",
+          WebkitTextFillColor: "transparent",
         }}
       >
         Honored To Be Accompanied With
